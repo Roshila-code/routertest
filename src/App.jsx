@@ -7,9 +7,9 @@ import ProductDetail from './components/ProductDetail';
 import "./NavLinkTest.css";
 
 const products = [
-  {id : 1, name:"Laptop",price:1200, image:"/image/laptop.png"},
-   { id : 2, name:"Keyboard",price:100, image:"/image/keyboard.png"},
-    {id : 3, name:"Mouse",price:200, image:"/image/mouse.png"}
+  {id : 1, name:"Laptop",price:1200, image:"/routertest/image/laptop.png"},
+   { id : 2, name:"Keyboard",price:100, image:"/routertest/image/keyboard.png"},
+    {id : 3, name:"Mouse",price:200, image:"/routertest/image/mouse.png"}
   
 ]
 
