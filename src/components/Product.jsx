@@ -9,7 +9,7 @@ function Products({ list }) {
           <div key={product.id} className="product-item">
             <h3>{product.name}</h3>
 
-            <img src={product.image}alt={product.name} width={150} />
+            <img src="/routertest/image/laptop.png"alt={product.name} width={150} />
 
             <p>{product.price}</p>
             <Link to={`/productlist/${product.id}`}>View Detail</Link>
